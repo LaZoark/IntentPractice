@@ -4,14 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="universalQuickAction"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_email"
         android:layout_width="255dp"
         android:layout_height="85dp"
-        android:layout_marginTop="134dp"
-        android:onClick="quickActionView"
+        android:layout_marginTop="228dp"
+        android:onClick="universalQuickAction"
+        android:text="email"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="255dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="340dp"
+        android:onClick="universalQuickAction"
+        android:text="Camera"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_screenShot"
+        android:layout_width="255dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="452dp"
+        android:onClick="universalQuickAction"
+        android:text="ScreenShot"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_google"
+        android:layout_width="255dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="24dp"
+        android:onClick="universalQuickAction"
         android:text="Google"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,11 +56,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_webSearch"
         android:layout_width="255dp"
         android:layout_height="85dp"
-        android:layout_marginTop="248dp"
-        android:onClick="quickActionWeb"
+        android:layout_marginTop="124dp"
+        android:onClick="universalQuickAction"
         android:text="Web Search"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
