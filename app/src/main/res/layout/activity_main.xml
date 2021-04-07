@@ -11,37 +11,39 @@
         android:id="@+id/button_email"
         android:layout_width="255dp"
         android:layout_height="85dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="22dp"
         android:onClick="universalQuickAction"
         android:text="email"
         android:textSize="30sp"
+        app:backgroundTint="#2196F3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button_webSearch" />
 
     <Button
         android:id="@+id/button_camera"
         android:layout_width="255dp"
         android:layout_height="85dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="22dp"
         android:onClick="universalQuickAction"
         android:text="Camera"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button_email" />
 
     <Button
         android:id="@+id/button_screenShot"
         android:layout_width="255dp"
         android:layout_height="85dp"
-        android:layout_marginTop="452dp"
+        android:layout_marginTop="22dp"
         android:onClick="universalQuickAction"
         android:text="ScreenShot"
         android:textSize="30sp"
+        app:backgroundTint="#8BC34A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button_camera" />
 
     <Button
         android:id="@+id/button_google"
@@ -51,6 +53,7 @@
         android:onClick="universalQuickAction"
         android:text="Google"
         android:textSize="30sp"
+        app:backgroundTint="#BA3B3B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -59,11 +62,12 @@
         android:id="@+id/button_webSearch"
         android:layout_width="255dp"
         android:layout_height="85dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="22dp"
         android:onClick="universalQuickAction"
         android:text="Web Search"
         android:textSize="30sp"
+        app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button_google" />
 </androidx.constraintlayout.widget.ConstraintLayout>
