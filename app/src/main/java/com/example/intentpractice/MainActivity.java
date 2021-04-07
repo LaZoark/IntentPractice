@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent();
         switch (v.getId()){
             case R.id.button_camera:
+                Intent secondScreen = new Intent(this, camera.class);
+//                Toast.makeText(MainActivity.this,"before start activity.",Toast.LENGTH_SHORT).show();
+                startActivityForResult(secondScreen, 920);
+//                Toast.makeText(MainActivity.this,"after start activity.",Toast.LENGTH_SHORT).show();
+                break;
             case R.id.button_screenShot:
                 Toast.makeText(MainActivity.this,"Coming soon(Not really sure)",Toast.LENGTH_SHORT).show();
                 break;
