@@ -97,6 +97,7 @@ public class camera extends AppCompatActivity {
                     imgUri = data.getData();  //取得選取相片的 Uri
                     break;
             }
+            imv.setScaleType(ImageView.ScaleType.FIT_XY);
             showImg();  //顯示 imgUri 所指明的相片
         }
         else {
